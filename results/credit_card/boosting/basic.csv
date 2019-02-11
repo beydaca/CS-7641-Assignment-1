@@ -1,0 +1,7 @@
+best_estimator,best_score,best_params,test_score
+"Pipeline(memory=None,
+     steps=[('scale', StandardScaler(copy=True, with_mean=True, with_std=True)), ('predict', AdaBoostClassifier(algorithm='SAMME',
+          base_estimator=PrunedDecisionTreeClassifier(alpha=0, class_weight='balanced',
+               criterion='entropy', max_depth=None, max_features=None,
+               ...  random_state=10, splitter='best'),
+          learning_rate=1.0, n_estimators=8, random_state=10))])",0.6660776770397911,"{'predict__base_estimator__alpha': 0, 'predict__n_estimators': 8}",0.6543666979691612

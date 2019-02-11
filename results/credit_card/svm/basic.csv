@@ -1,0 +1,6 @@
+best_estimator,best_score,best_params,test_score
+"Pipeline(memory=None,
+     steps=[('scale', StandardScaler(copy=True, with_mean=True, with_std=True)), ('predict', SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False))])",0.635336745921557,{'predict__kernel': 'rbf'},0.6526498397837979

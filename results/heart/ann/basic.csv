@@ -1,0 +1,7 @@
+best_estimator,best_score,best_params,test_score
+"Pipeline(memory=None,
+     steps=[('scale', StandardScaler(copy=True, with_mean=True, with_std=True)), ('predict', MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=True, epsilon=1e-08,
+       hidden_layer_sizes=64, learning_rate='constant',
+       learning_rate_...=True, solver='adam', tol=0.0001,
+       validation_fraction=0.1, verbose=False, warm_start=False))])",0.7944276556776557,"{'predict__activation': 'relu', 'predict__hidden_layer_sizes': 64}",0.7592682926829268

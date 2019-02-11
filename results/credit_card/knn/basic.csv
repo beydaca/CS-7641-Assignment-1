@@ -1,0 +1,5 @@
+best_estimator,best_score,best_params,test_score
+"Pipeline(memory=None,
+     steps=[('scale', StandardScaler(copy=True, with_mean=True, with_std=True)), ('predict', KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='manhattan',
+           metric_params=None, n_jobs=None, n_neighbors=7, p=2,
+           weights='uniform'))])",0.6445416030338735,"{'predict__metric': 'manhattan', 'predict__n_neighbors': 7}",0.6312518369307308
