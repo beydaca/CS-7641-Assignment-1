@@ -32,6 +32,10 @@ source venv/bin/activate
 
 touch ~/.matplotlib/matplotlibrc && echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 
+8. Install requirements.txt
+
+pip install -r requirements.txt
+
 ## Run
 
 ```
